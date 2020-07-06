@@ -1,0 +1,7 @@
+<style>
+      .cc {position: relative;display: inline-block;}
+      .cc-btn {height: 75px;text-align: center;float: left;background: #173459;border: none;width: 120px;color: #f8f9f9;}
+      .cc-content {position: absolute;width: 130;box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);height: 0px;transition: height 1s;overflow: hidden;top: 84px;left: 936px;}
+      .cc:hover > .cc-content {height: 170px;}
+      .cc-content > a {display: block;padding: 21px;text-decoration: none;color: black;background-color: white;}
+   </style>

@@ -1,0 +1,79 @@
+<style>
+       /*Menu div CSS*/
+
+      .dd {position: relative; display: inline-block;}
+         .dd-btn {height: 75px;text-align: center;float: left;background: #173459;border: none;width: 120px;color: #f8f9f9;}
+         .dd-content {position: absolute;width: 130;box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+            height: 0px;transition: height 1s;overflow: hidden;top: 84px;left: 835px;}
+         .dd:hover > .dd-content {height: 170px;}
+         .dd-content > a
+            { display: block;padding: 21px;text-decoration: none;color: black;background-color: white;}
+            /**/
+       /*Search bar*/
+       input[type=text] {width: 150px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;font-size: 16px;background-color: white;background-image: url('searchicon.png');background-position: 10px 10px;background-repeat: no-repeat;height: 50px;transition: width 0.5s ease-in-out;margin-left: 20px;margin-top: 10px;}
+          input[type=text]:focus {width: 300px;}
+
+       /*Button CSS*/
+      .B {width: 590px;height: 75px;float: left;background-color: #173459;}
+         .b1 {width: 150px;height: 75px;background-color: #173459;float: right;border: none;}
+         .b1 a {text-decoration: none;color:white;}
+         .b2 {width: 150px;height: 75px;background-color:#173459;float: left;}
+
+         /*Qoute div CSS*/
+      .q {width: 1330px;height: 400px;background-color: rgb(51, 202, 207);}
+        .q1 {text-align: center;padding-top: 100px;font-family: Rockwell;}
+        .q2 {text-align: center;}
+
+        /*Spcce CSS*/
+      .space {width: 1330px;height: 50px;background-color: white;}
+
+        /*Software Division CSS*/
+      .soft_main_div {width: 1330px;height: 370px; background-color: white;border: 2px solid black;}
+         .soft_text {text-align: center;margin-top: 12px;}
+         .soft_div_style {width: 320px; height: 57px;background-color: white;float: left;}
+         .soft_div_style_1 {width: 500px; height: 57px;background-color: black;float:left;}
+         .soft_div_style_2 {width: 500px; height: 57px;background-color: black;float:right;}
+         .soft_div_style_3 {width: 1330;height: 60px; background-color: black;}
+         .soft_div_content {width: 250px;height: 300px;background-color: brown;margin-left: 13px;margin-top: 5px;float: left;}
+            
+         /*image orientation*/
+      .img_orientation {width: 250px; height: 300px;border: 1px solid black;}
+       /*Games Division CSS*/
+      .Games_main_div {width: 1330px;height: 370px; background-color: white;border: 2px solid black;}
+         .game_text {text-align: center;margin-top: 12px;}
+         .game_div_style {width: 320px; height: 57px;background-color: white;float: left;}
+         .game_div_style_1 {width: 500px; height: 57px;background-color: black;float:left;}
+         .game_div_style_2 {width: 500px; height: 57px;background-color: black;float:right;}
+         .game_div_style_3 {width: 1330;height: 60px; background-color: black;}
+         .game_div_content {width: 250px;height: 300px;background-color: white;margin-left: 13px;margin-top: 5px;float: left;}
+
+       /*Aniated Button*/
+      .button {display: inline-block;border-radius: 4px;background-color: #f4511e;border: none;color: #FFFFFF;text-align: center;font-size: 28px;padding: 20px;width: 200px;transition: all 0.5s;cursor: pointer;margin-left: 560px;}
+          .button span {cursor: pointer;display: inline-block;position: relative;transition: 0.5s;}          
+          .button span:after {content: '\00bb';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s;}
+          .button:hover span {padding-right: 25px;}
+          .button:hover span:after {opacity: 1;right: 0;}
+          .btn_link {text-decoration: none;color: white;}
+
+          /*Why to shop here division css*/
+      .wtsh_main_div {width: 1330px;height: 450px; background-color: white;border-top: 2px solid black;}
+          .wtsh_img {width: 1330px;height: 450x;}
+            /*footer css*/
+      .ft_main_div {width: 1330px;height: 500px;background-color: white; border-top: 2px solid black;}
+        .find_us {width: 300px;height: 450px; background-color: #cccccc; margin-left: 20px;margin-top: 25px; float: left;border-right:2px solid black;}
+        .find_us_txt_1 {text-align: center;font-family: 'Times New Roman', Times, serif;color: black;}
+        .find_us_txt_2 {text-align: center;text-decoration: underline;}
+        .find_us_social {text-decoration: underline;}
+        .no_dec {text-decoration: none; color: black;}
+        .no_dec:hover {color: slateblue ;}
+        .p_w_img {width: 586px;height: 450px;margin-top: 25px; float: left;}
+        .p_w_img_or {width: 586px;height: 450px;}
+        .nl {width: 400px;height: 450px; background-color: #cccccc; margin-right: 20px;margin-top: 25px; float: right;border-left:2px solid black;}
+        .nl_txt_1 {color: black; text-align: center;margin-top: 130px;text-decoration: underline;}
+        .nl_form {margin-top: 80px;}
+        .nl_form_ea {text-align: center;}
+        .nl_form_ea_style {border-radius: 5px ; width: 220px; height: 20px;margin-left: 90px;}
+      .home_link{text-decoration: none;color:white;}
+      .soft_link{text-decoration: none;color:white;}
+      .game_link{text-decoration: none;color:white;}
+   </style>
